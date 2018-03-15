@@ -19,29 +19,43 @@ maven {
 }
 ```
 
-## v2 - about 60kb~ depending on number of collections
-there are 4 primary collections exposed.
+## v2 - about 50kb~ depending on number of collections
+NOTE: v2 is NOT an upgrade from v1 in terms of features. It is a downgrade!
+v1 (below) contains more of the fastutil collection.
+
+v2 strips out even more and provides them as individual artifacts so you only import what you need.
+
+Only the Int/Long keyed Open Hash Maps are exposed (and the custom versions)
+### All of these collections need:
+Group and version is the same for all
 
 **group**: `co.aikar`
+
 **version**: `2.0-SNAPSHOT`
 
-All of these collections need:
 **artifact**: `fastutil-base`
 
-Int Hashmaps need:
+### Int Hashmaps need:
+
 **artifact**: `fastutil-intbase`
 
-Long Hashmaps need:
+### Long Hashmaps need:
+
 **artifact**: `fastutil-intbase`
+
+### Hashmaps
 
 **Int2ObjectOpenHashMap**: `fastutil-inthashmap`
+
 **Int2ObjectOpenCustomHashMap**: `fastutil-intcustomhashmap`
+
 **Long2ObjectOpenHashMap**: `fastutil-longhashmap`
+
 **Long2ObjectOpenCustomHashMap**: `fastutil-longcustomhashmap`
 
+### Example
 You should have at least 3 artifacts, `core`, `intbase` or `longbase` (or both), and then one or more of the desired collections.
 
-Example:
 ```xml
     <dependencies>
         <dependency>
