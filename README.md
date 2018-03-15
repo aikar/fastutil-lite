@@ -19,7 +19,7 @@ maven {
 }
 ```
 
-## v2 - about 80kb~ depending on number of collections
+## v2 - about 60kb~ depending on number of collections
 there are 4 primary collections exposed.
 
 **group**: `co.aikar`
