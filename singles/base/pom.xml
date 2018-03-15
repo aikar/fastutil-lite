@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>co.aikar</groupId>
+        <artifactId>fastutil-parent</artifactId>
+        <relativePath>../../pom.xml</relativePath>
+        <version>2.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>fastutil-base</artifactId>
+
+    <build>
+        <sourceDirectory>../../src/main/java</sourceDirectory>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <dependencyReducedPomLocation>${project.build.directory}/dependency-reduced-pom.xml</dependencyReducedPomLocation>
+                            <shadedArtifactAttached>false</shadedArtifactAttached>
+                            <minimizeJar>true</minimizeJar>
+                            <filters>
+                                <filter>
+                                    <artifact>co.aikar:fastutil-base</artifact>
+                                    <includes>
+                                        <include>it/unimi/dsi/fastutil/Function.class</include>
+                                        <include>it/unimi/dsi/fastutil/Function$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/Hash.class</include>
+                                        <include>it/unimi/dsi/fastutil/Hash$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/HashCommon.class</include>
+                                        <include>it/unimi/dsi/fastutil/HashCommon$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectSet.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterator$*.class</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

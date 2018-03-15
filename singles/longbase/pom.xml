@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>co.aikar</groupId>
+        <artifactId>fastutil-parent</artifactId>
+        <relativePath>../../pom.xml</relativePath>
+        <version>2.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>fastutil-longbase</artifactId>
+
+    <build>
+        <sourceDirectory>../../src/main/java</sourceDirectory>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <dependencyReducedPomLocation>${project.build.directory}/dependency-reduced-pom.xml</dependencyReducedPomLocation>
+                            <shadedArtifactAttached>false</shadedArtifactAttached>
+                            <minimizeJar>true</minimizeJar>
+                            <filters>
+
+                                <filter>
+                                    <artifact>co.aikar:fastutil-longbase</artifact>
+                                    <includes>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLongSet.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLongSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/Long2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/Long2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongArrayList.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongSet.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongSet$*.class</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>co.aikar</groupId>
+            <artifactId>fastutil-base</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
