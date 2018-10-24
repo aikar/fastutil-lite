@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/bytebase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/bytecustomhashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/bytehashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/intbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/intcustomhashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/inthashmap" charset="UTF-8" />
