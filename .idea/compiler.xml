@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base" />
+        <module name="fastutil-base" />
+        <module name="fastutil-intbase" />
+        <module name="fastutil-intcustomhashmap" />
+        <module name="fastutil-inthashmap" />
+        <module name="fastutil-longcustomhashmap" />
+        <module name="fastutil-longthashmap" />
+        <module name="intbase" />
+        <module name="intcustomhashmap" />
+        <module name="inthashmap" />
+        <module name="longbase" />
+        <module name="longcustomhashmap" />
+        <module name="longhashmap" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base" target="1.5" />
+      <module name="fastutil-base" target="1.5" />
+      <module name="fastutil-intbase" target="1.5" />
+      <module name="fastutil-intcustomhashmap" target="1.5" />
+      <module name="fastutil-inthashmap" target="1.5" />
+      <module name="fastutil-lite" target="1.5" />
+      <module name="fastutil-longcustomhashmap" target="1.5" />
+      <module name="fastutil-longthashmap" target="1.5" />
+      <module name="intbase" target="1.5" />
+      <module name="intcustomhashmap" target="1.5" />
+      <module name="inthashmap" target="1.5" />
+      <module name="longbase" target="1.5" />
+      <module name="longcustomhashmap" target="1.5" />
+      <module name="longhashmap" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
