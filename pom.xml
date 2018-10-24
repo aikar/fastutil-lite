@@ -38,5 +38,6 @@
         <module>singles/intcustomhashmap</module>
         <module>singles/longhashmap</module>
         <module>singles/longcustomhashmap</module>
+        <module>singles/booleanbase</module>
     </modules>
 </project>

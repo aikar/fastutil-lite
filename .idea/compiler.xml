@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="fastutil-base" />
+        <module name="fastutil-booleanbase" />
         <module name="fastutil-intbase" />
         <module name="fastutil-intcustomhashmap" />
         <module name="fastutil-inthashmap" />
@@ -26,6 +27,7 @@
     <bytecodeTargetLevel>
       <module name="base" target="1.5" />
       <module name="fastutil-base" target="1.8" />
+      <module name="fastutil-booleanbase" target="1.8" />
       <module name="fastutil-intbase" target="1.8" />
       <module name="fastutil-intcustomhashmap" target="1.8" />
       <module name="fastutil-inthashmap" target="1.8" />
