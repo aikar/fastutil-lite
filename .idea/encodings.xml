@@ -9,6 +9,9 @@
     <file url="file://$PROJECT_DIR$/singles/longbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/longcustomhashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/longhashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/objectbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/objectcustomhashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/objecthashmap" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

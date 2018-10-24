@@ -15,6 +15,9 @@
         <module name="fastutil-longcustomhashmap" />
         <module name="fastutil-longhashmap" />
         <module name="fastutil-longthashmap" />
+        <module name="fastutil-objectbase" />
+        <module name="fastutil-objectcustomhashmap" />
+        <module name="fastutil-objecthashmap" />
         <module name="intbase" />
         <module name="intcustomhashmap" />
         <module name="inthashmap" />
@@ -34,6 +37,9 @@
       <module name="fastutil-longcustomhashmap" target="1.8" />
       <module name="fastutil-longhashmap" target="1.8" />
       <module name="fastutil-longthashmap" target="1.5" />
+      <module name="fastutil-objectbase" target="1.8" />
+      <module name="fastutil-objectcustomhashmap" target="1.8" />
+      <module name="fastutil-objecthashmap" target="1.8" />
       <module name="fastutil-parent" target="1.5" />
       <module name="intbase" target="1.5" />
       <module name="intcustomhashmap" target="1.5" />
