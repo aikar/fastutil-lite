@@ -11,7 +11,9 @@
         <module name="fastutil-intbase" />
         <module name="fastutil-intcustomhashmap" />
         <module name="fastutil-inthashmap" />
+        <module name="fastutil-longbase" />
         <module name="fastutil-longcustomhashmap" />
+        <module name="fastutil-longhashmap" />
         <module name="fastutil-longthashmap" />
         <module name="intbase" />
         <module name="intcustomhashmap" />
@@ -23,13 +25,16 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base" target="1.5" />
-      <module name="fastutil-base" target="1.5" />
-      <module name="fastutil-intbase" target="1.5" />
-      <module name="fastutil-intcustomhashmap" target="1.5" />
-      <module name="fastutil-inthashmap" target="1.5" />
+      <module name="fastutil-base" target="1.8" />
+      <module name="fastutil-intbase" target="1.8" />
+      <module name="fastutil-intcustomhashmap" target="1.8" />
+      <module name="fastutil-inthashmap" target="1.8" />
       <module name="fastutil-lite" target="1.5" />
-      <module name="fastutil-longcustomhashmap" target="1.5" />
+      <module name="fastutil-longbase" target="1.8" />
+      <module name="fastutil-longcustomhashmap" target="1.8" />
+      <module name="fastutil-longhashmap" target="1.8" />
       <module name="fastutil-longthashmap" target="1.5" />
+      <module name="fastutil-parent" target="1.5" />
       <module name="intbase" target="1.5" />
       <module name="intcustomhashmap" target="1.5" />
       <module name="inthashmap" target="1.5" />
