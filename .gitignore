@@ -91,6 +91,7 @@ nb-configuration.xml
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
+.idea/modules.xml
 .idea/dictionaries
 
 # Sensitive or high-churn files:
