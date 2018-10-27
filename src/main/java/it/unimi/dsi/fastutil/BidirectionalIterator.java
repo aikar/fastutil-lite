@@ -1,7 +1,7 @@
 package it.unimi.dsi.fastutil;
 
-/*		 
- * Copyright (C) 2002-2016 Sebastiano Vigna
+/*
+ * Copyright (C) 2002-2017 Sebastiano Vigna
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@ package it.unimi.dsi.fastutil;
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
- * limitations under the License. 
+ * limitations under the License.
  */
 
 
@@ -22,12 +22,12 @@ import java.util.ListIterator;
 
 /** A bidirectional {@link Iterator}.
  *
- * <P>This kind of iterator is essentially a {@link ListIterator} that
+ * <p>This kind of iterator is essentially a {@link ListIterator} that
  * does not support {@link ListIterator#previousIndex()} and {@link
  * ListIterator#nextIndex()}. It is useful for those maps that can easily
  * provide bidirectional iteration, but provide no index.
  *
- * <P>Note that iterators returned by <code>fastutil</code> classes are more
+ * <p>Note that iterators returned by {@code fastutil} classes are more
  * specific, and support skipping. This class serves the purpose of organising
  * in a cleaner way the relationships between various iterators.
  *
