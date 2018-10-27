@@ -38,6 +38,9 @@
         <module>singles/intcustomhashmap</module>
         <module>singles/longhashmap</module>
         <module>singles/longcustomhashmap</module>
+        <module>singles/objectbase</module>
+        <module>singles/objecthashmap</module>
+        <module>singles/objectcustomhashmap</module>
         <module>singles/floatbase</module>
         <module>singles/floathashmap</module>
         <module>singles/floatcustomhashmap</module>
