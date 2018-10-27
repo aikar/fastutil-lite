@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="fastutil-base" />
+        <module name="fastutil-floatbase" />
+        <module name="fastutil-floatcustomhashmap" />
+        <module name="fastutil-floathashmap" />
         <module name="fastutil-bytebase" />
         <module name="fastutil-bytecustomhashmap" />
         <module name="fastutil-bytehashmap" />
@@ -39,6 +42,9 @@
     <bytecodeTargetLevel>
       <module name="base" target="1.5" />
       <module name="fastutil-base" target="1.8" />
+      <module name="fastutil-floatbase" target="1.8" />
+      <module name="fastutil-floatcustomhashmap" target="1.8" />
+      <module name="fastutil-floathashmap" target="1.8" />
       <module name="fastutil-bytebase" target="1.8" />
       <module name="fastutil-bytecustomhashmap" target="1.8" />
       <module name="fastutil-bytehashmap" target="1.8" />
