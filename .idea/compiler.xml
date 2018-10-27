@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="fastutil-base" />
+        <module name="fastutil-charbase" />
+        <module name="fastutil-charcustomhashmap" />
+        <module name="fastutil-charhashmap" />
         <module name="fastutil-doublebase" />
         <module name="fastutil-doublecustomhashmap" />
         <module name="fastutil-doublehashmap" />
@@ -29,6 +32,9 @@
     <bytecodeTargetLevel>
       <module name="base" target="1.5" />
       <module name="fastutil-base" target="1.8" />
+      <module name="fastutil-charbase" target="1.8" />
+      <module name="fastutil-charcustomhashmap" target="1.8" />
+      <module name="fastutil-charhashmap" target="1.8" />
       <module name="fastutil-doublebase" target="1.8" />
       <module name="fastutil-doublecustomhashmap" target="1.8" />
       <module name="fastutil-doublehashmap" target="1.8" />
