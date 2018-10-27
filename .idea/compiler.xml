@@ -11,6 +11,9 @@
         <module name="fastutil-charbase" />
         <module name="fastutil-charcustomhashmap" />
         <module name="fastutil-charhashmap" />
+        <module name="fastutil-doublebase" />
+        <module name="fastutil-doublecustomhashmap" />
+        <module name="fastutil-doublehashmap" />
         <module name="fastutil-intbase" />
         <module name="fastutil-intcustomhashmap" />
         <module name="fastutil-inthashmap" />
@@ -32,7 +35,11 @@
       <module name="fastutil-charbase" target="1.8" />
       <module name="fastutil-charcustomhashmap" target="1.8" />
       <module name="fastutil-charhashmap" target="1.8" />
+      <module name="fastutil-doublebase" target="1.8" />
+      <module name="fastutil-doublecustomhashmap" target="1.8" />
+      <module name="fastutil-doublehashmap" target="1.8" />
       <module name="fastutil-intbase" target="1.8" />
+      <module name="fastutil-intbase (1)" target="1.8" />
       <module name="fastutil-intcustomhashmap" target="1.8" />
       <module name="fastutil-inthashmap" target="1.8" />
       <module name="fastutil-lite" target="1.5" />
