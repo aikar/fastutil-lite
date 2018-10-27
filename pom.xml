@@ -38,6 +38,7 @@
         <module>singles/intcustomhashmap</module>
         <module>singles/longhashmap</module>
         <module>singles/longcustomhashmap</module>
+        <module>singles/iobase</module>
         <module>singles/objectbase</module>
         <module>singles/objecthashmap</module>
         <module>singles/objectcustomhashmap</module>
