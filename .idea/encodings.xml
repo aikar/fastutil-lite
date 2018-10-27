@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/booleanbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/charbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/charcustomhashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/charhashmap" charset="UTF-8" />
