@@ -8,19 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="fastutil-base" />
-        <module name="fastutil-floatbase" />
-        <module name="fastutil-floatcustomhashmap" />
-        <module name="fastutil-floathashmap" />
+        <module name="fastutil-booleanbase" />
         <module name="fastutil-bytebase" />
         <module name="fastutil-bytecustomhashmap" />
         <module name="fastutil-bytehashmap" />
-        <module name="fastutil-booleanbase" />
         <module name="fastutil-charbase" />
         <module name="fastutil-charcustomhashmap" />
         <module name="fastutil-charhashmap" />
         <module name="fastutil-doublebase" />
         <module name="fastutil-doublecustomhashmap" />
         <module name="fastutil-doublehashmap" />
+        <module name="fastutil-floatbase" />
+        <module name="fastutil-floatcustomhashmap" />
+        <module name="fastutil-floathashmap" />
         <module name="fastutil-intbase" />
         <module name="fastutil-intcustomhashmap" />
         <module name="fastutil-inthashmap" />
@@ -29,6 +29,7 @@
         <module name="fastutil-longcustomhashmap" />
         <module name="fastutil-longhashmap" />
         <module name="fastutil-longthashmap" />
+        <module name="fastutil-object2x" />
         <module name="fastutil-objectbase" />
         <module name="fastutil-objectcustomhashmap" />
         <module name="fastutil-objecthashmap" />
@@ -46,19 +47,19 @@
     <bytecodeTargetLevel>
       <module name="base" target="1.5" />
       <module name="fastutil-base" target="1.8" />
-      <module name="fastutil-floatbase" target="1.8" />
-      <module name="fastutil-floatcustomhashmap" target="1.8" />
-      <module name="fastutil-floathashmap" target="1.8" />
+      <module name="fastutil-booleanbase" target="1.8" />
       <module name="fastutil-bytebase" target="1.8" />
       <module name="fastutil-bytecustomhashmap" target="1.8" />
       <module name="fastutil-bytehashmap" target="1.8" />
-      <module name="fastutil-booleanbase" target="1.8" />
       <module name="fastutil-charbase" target="1.8" />
       <module name="fastutil-charcustomhashmap" target="1.8" />
       <module name="fastutil-charhashmap" target="1.8" />
       <module name="fastutil-doublebase" target="1.8" />
       <module name="fastutil-doublecustomhashmap" target="1.8" />
       <module name="fastutil-doublehashmap" target="1.8" />
+      <module name="fastutil-floatbase" target="1.8" />
+      <module name="fastutil-floatcustomhashmap" target="1.8" />
+      <module name="fastutil-floathashmap" target="1.8" />
       <module name="fastutil-intbase" target="1.8" />
       <module name="fastutil-intcustomhashmap" target="1.8" />
       <module name="fastutil-inthashmap" target="1.8" />
@@ -68,13 +69,14 @@
       <module name="fastutil-longcustomhashmap" target="1.8" />
       <module name="fastutil-longhashmap" target="1.8" />
       <module name="fastutil-longthashmap" target="1.8" />
-      <module name="fastutil-parent" target="1.8" />
-      <module name="fastutil-shortbase" target="1.8" />
-      <module name="fastutil-shortcustomhashmap" target="1.8" />
-      <module name="fastutil-shorthashmap" target="1.8" />
+      <module name="fastutil-object2x" target="1.8" />
       <module name="fastutil-objectbase" target="1.8" />
       <module name="fastutil-objectcustomhashmap" target="1.8" />
       <module name="fastutil-objecthashmap" target="1.8" />
+      <module name="fastutil-parent" target="1.5" />
+      <module name="fastutil-shortbase" target="1.8" />
+      <module name="fastutil-shortcustomhashmap" target="1.8" />
+      <module name="fastutil-shorthashmap" target="1.8" />
       <module name="intbase" target="1.5" />
       <module name="intcustomhashmap" target="1.5" />
       <module name="inthashmap" target="1.5" />

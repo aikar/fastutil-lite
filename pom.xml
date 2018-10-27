@@ -42,6 +42,7 @@
         <module>singles/objectbase</module>
         <module>singles/objecthashmap</module>
         <module>singles/objectcustomhashmap</module>
+        <module>singles/object2x</module>
         <module>singles/floatbase</module>
         <module>singles/floathashmap</module>
         <module>singles/floatcustomhashmap</module>
