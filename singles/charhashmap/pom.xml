@@ -42,6 +42,18 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-charhashmap</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectFunctions.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectFunctions$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectMaps.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectMaps$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/Char2ObjectOpenHashMap.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/Char2ObjectOpenHashMap$*.class</include>
                                     </includes>

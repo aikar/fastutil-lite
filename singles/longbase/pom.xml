@@ -43,20 +43,36 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-longbase</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectFunction.class</include>
-                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectFunction$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/longs/AbstractLong2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLongCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLongCollection$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/AbstractLongSet.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/AbstractLongSet$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/longs/Long2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/longs/Long2ObjectMap$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongIterable$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongList.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongListIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongSet.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/LongSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

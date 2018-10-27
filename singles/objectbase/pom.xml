@@ -43,20 +43,20 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-objectbase</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectFunction.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectFunction$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectMap$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectSet.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectSet$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectMap$*.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectArrayList$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterator.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterator$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectSet.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectList.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectListIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

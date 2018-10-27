@@ -42,6 +42,18 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-doublehashmap</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectFunctions.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectFunctions$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectMaps.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectMaps$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/Double2ObjectOpenHashMap.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/Double2ObjectOpenHashMap$*.class</include>
                                     </includes>
