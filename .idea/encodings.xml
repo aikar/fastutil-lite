@@ -16,6 +16,9 @@
     <file url="file://$PROJECT_DIR$/singles/longbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/longcustomhashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/longhashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/shortbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/shortcustomhashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/shorthashmap" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

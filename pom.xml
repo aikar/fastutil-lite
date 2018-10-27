@@ -38,6 +38,9 @@
         <module>singles/intcustomhashmap</module>
         <module>singles/longhashmap</module>
         <module>singles/longcustomhashmap</module>
+        <module>singles/shortbase</module>
+        <module>singles/shorthashmap</module>
+        <module>singles/shortcustomhashmap</module>
         <module>singles/booleanbase</module>
         <module>singles/charbase</module>
         <module>singles/charhashmap</module>
