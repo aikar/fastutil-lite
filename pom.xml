@@ -41,5 +41,15 @@
         <module>singles/bytebase</module>
         <module>singles/bytehashmap</module>
         <module>singles/bytecustomhashmap</module>
+        <module>singles/shortbase</module>
+        <module>singles/shorthashmap</module>
+        <module>singles/shortcustomhashmap</module>
+        <module>singles/booleanbase</module>
+        <module>singles/charbase</module>
+        <module>singles/charhashmap</module>
+        <module>singles/charcustomhashmap</module>
+        <module>singles/doublebase</module>
+        <module>singles/doublehashmap</module>
+        <module>singles/doublecustomhashmap</module>
     </modules>
 </project>
