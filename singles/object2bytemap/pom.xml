@@ -10,7 +10,7 @@
         <relativePath>../../pom.xml</relativePath>
         <version>3.0-SNAPSHOT</version>
     </parent>
-    <artifactId>fastutil-objectbase</artifactId>
+    <artifactId>fastutil-object2bytemap</artifactId>
 
     <build>
         <sourceDirectory>../../src/main/java</sourceDirectory>
@@ -39,28 +39,11 @@
                             <shadedArtifactAttached>false</shadedArtifactAttached>
                             <minimizeJar>true</minimizeJar>
                             <filters>
-
                                 <filter>
-                                    <artifact>co.aikar:fastutil-objectbase</artifact>
+                                    <artifact>co.aikar:fastutil-object2bytemap</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/Stack.class</include>
-                                        <include>it/unimi/dsi/fastutil/Stack$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectList.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectList$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectArrayList.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectArrayList$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectConsumer.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectConsumer$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectCollections.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectCollections$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterators.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterators$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectList.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectList$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectListIterator.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectListIterator$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectSets.class</include>
-                                        <include>it/unimi/dsi/fastutil/objects/ObjectSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2Byte*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2Byte*.class</include>
                                     </includes>
                                 </filter>
                             </filters>
@@ -74,6 +57,18 @@
         <dependency>
             <groupId>co.aikar</groupId>
             <artifactId>fastutil-base</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>co.aikar</groupId>
+            <artifactId>fastutil-bytebase</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>co.aikar</groupId>
+            <artifactId>fastutil-objectbase</artifactId>
             <version>${project.parent.version}</version>
             <scope>provided</scope>
         </dependency>

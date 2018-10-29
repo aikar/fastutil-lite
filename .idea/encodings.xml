@@ -23,6 +23,14 @@
     <file url="file://$PROJECT_DIR$/singles/longbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/longcustomhashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/longhashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2booleanmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2bytemap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2charmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2doublemap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2floatmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2intmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2longmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singles/object2objectmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/object2x" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/objectbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singles/objectcustomhashmap" charset="UTF-8" />
