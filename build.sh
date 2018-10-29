@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ -z "$1" ]; then
-	mvn -T 4 install
+	mvn -T 8 install
 else
-	mvn -T 4 $@
+	mvn -T 8 $@
 fi
