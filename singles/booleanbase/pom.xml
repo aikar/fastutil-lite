@@ -43,14 +43,36 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-booleanbase</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanCollection$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanSet.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanIterable$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanList.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanListIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanSet.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

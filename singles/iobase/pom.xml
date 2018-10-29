@@ -43,6 +43,8 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-iobase</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/io/*.class</include>
+
                                         <include>it/unimi/dsi/fastutil/*/*Arrays.class</include>
                                         <include>it/unimi/dsi/fastutil/*/*Arrays$*.class</include>
                                         <include>it/unimi/dsi/fastutil/*/*BigArrays.class</include>
@@ -55,6 +57,7 @@
                                         <include>it/unimi/dsi/fastutil/*/*Iterable$*.class</include>
                                         <include>it/unimi/dsi/fastutil/*/*Iterator.class</include>
                                         <include>it/unimi/dsi/fastutil/*/*Iterator$*.class</include>
+
                                         <include>it/unimi/dsi/fastutil/BigArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/BigArrays$*.class</include>
                                         <include>it/unimi/dsi/fastutil/BigList.class</include>
@@ -65,8 +68,40 @@
                                         <include>it/unimi/dsi/fastutil/BigSwapper$*.class</include>
                                         <include>it/unimi/dsi/fastutil/Size64.class</include>
                                         <include>it/unimi/dsi/fastutil/Size64$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/io/*.class</include>
+
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractIntBigList.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractIntBigList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBigArrayBigList.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBigArrayBigList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBigList.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBigList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBigListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntBigListIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntCollection$*.class</include>
                                     </includes>
+                                    <excludes>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntComparator.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntComparator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterable$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortIterator$*.class</include>
+                                    </excludes>
                                 </filter>
                             </filters>
                         </configuration>

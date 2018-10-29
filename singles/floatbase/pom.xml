@@ -43,20 +43,36 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-floatbase</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloat2ObjectFunction.class</include>
-                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloat2ObjectFunction$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloat2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloat2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloatCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloatCollection$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/AbstractFloatSet.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/AbstractFloatSet$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/floats/Float2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/floats/Float2ObjectMap$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatIterable$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatList.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatListIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatSet.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

@@ -42,6 +42,18 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-bytehashmap</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectFunctions.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectFunctions$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectMaps.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectMaps$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectOpenHashMap.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectOpenHashMap$*.class</include>
                                     </includes>

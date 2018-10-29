@@ -42,6 +42,18 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-inthashmap</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractInt2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractInt2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractInt2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractInt2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectFunctions.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectFunctions$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectMaps.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/Int2ObjectMaps$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$*.class</include>
                                     </includes>
