@@ -43,20 +43,32 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-bytebase</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectFunction.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectFunction$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByte2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByteCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByteCollection$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteSet.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteSet$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/Byte2ObjectMap$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrayList$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterator.class</include>
-                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterable$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteList.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteListIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteSet.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

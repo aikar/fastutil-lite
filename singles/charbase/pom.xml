@@ -43,20 +43,36 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-charbase</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectFunction.class</include>
-                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectFunction$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/chars/AbstractChar2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractCharCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractCharCollection$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharSet.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharSet$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/chars/Char2ObjectMap$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharIterable$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharList.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharListIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharSet.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

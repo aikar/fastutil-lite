@@ -43,20 +43,36 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-doublebase</artifact>
                                     <includes>
-                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectFunction.class</include>
-                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectFunction$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDouble2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDoubleCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/AbstractDoubleCollection$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/AbstractDoubleSet.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/AbstractDoubleSet$*.class</include>
-                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectMap.class</include>
-                                        <include>it/unimi/dsi/fastutil/doubles/Double2ObjectMap$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleArrays.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleBidirectionalIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleBidirectionalIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleConsumer.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleConsumer$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleCollection.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleCollections.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleCollections$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleIterable.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleIterable$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleIterator$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleIterators.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleIterators$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleList.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleListIterator.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleListIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleSet.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleSet$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleSets.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleSets$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

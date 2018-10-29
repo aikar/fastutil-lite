@@ -1,2 +1,6 @@
 #!/bin/sh
-mvn -T 4 clean install $1
+if [ -z "$1" ]; then
+	mvn -T 8 install
+else
+	mvn -T 8 $@
+fi

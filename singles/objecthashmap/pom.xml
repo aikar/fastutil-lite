@@ -42,6 +42,18 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-objecthashmap</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObject2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectFunction.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectFunction$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectFunctions.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectFunctions$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectMap.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectMap$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectMaps.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/Object2ObjectMaps$*.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap$*.class</include>
                                     </includes>
