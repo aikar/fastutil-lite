@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/shorts/AbstractShortCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/AbstractShortCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/AbstractShortList.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/AbstractShortList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/AbstractShortSet.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/AbstractShortSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortArrayList.class</include>
@@ -69,6 +71,8 @@
                                         <include>it/unimi/dsi/fastutil/shorts/ShortSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortSets.class</include>
                                         <include>it/unimi/dsi/fastutil/shorts/ShortSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortStack.class</include>
+                                        <include>it/unimi/dsi/fastutil/shorts/ShortStack$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

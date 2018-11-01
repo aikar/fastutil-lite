@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/ints/AbstractIntCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/AbstractIntCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractIntList.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/AbstractIntList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/AbstractIntSet.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/AbstractIntSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntArrayList.class</include>
@@ -71,6 +73,8 @@
                                         <include>it/unimi/dsi/fastutil/ints/IntSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntSets.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntStack.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntStack$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>
