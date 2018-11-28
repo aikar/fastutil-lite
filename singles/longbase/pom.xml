@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/longs/AbstractLongCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/AbstractLongCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLongList.class</include>
+                                        <include>it/unimi/dsi/fastutil/longs/AbstractLongList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/AbstractLongSet.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/AbstractLongSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/longs/LongArrayList.class</include>

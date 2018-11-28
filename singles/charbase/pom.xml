@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractCharList.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractCharList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharSet.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrayList.class</include>

@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanList.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanSet.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/AbstractBooleanSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanArrayList.class</include>

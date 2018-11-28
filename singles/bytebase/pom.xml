@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByteList.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByteList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteSet.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrayList.class</include>

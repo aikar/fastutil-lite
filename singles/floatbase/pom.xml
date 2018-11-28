@@ -45,6 +45,8 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/floats/AbstractFloatCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/AbstractFloatCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloatList.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/AbstractFloatList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/AbstractFloatSet.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/AbstractFloatSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatArrayList.class</include>
