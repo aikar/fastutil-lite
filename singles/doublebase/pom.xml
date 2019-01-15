@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/doubles/DoubleArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/doubles/DoubleConsumer.class</include>

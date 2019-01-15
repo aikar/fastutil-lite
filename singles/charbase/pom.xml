@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/chars/CharArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharConsumer.class</include>

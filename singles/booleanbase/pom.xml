@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/booleans/BooleanArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/booleans/BooleanConsumer.class</include>

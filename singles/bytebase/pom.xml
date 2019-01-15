@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteCollection.class</include>

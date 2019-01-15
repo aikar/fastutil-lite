@@ -53,6 +53,8 @@
                                         <include>it/unimi/dsi/fastutil/floats/FloatArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/floats/FloatArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/floats/FloatConsumer.class</include>

@@ -51,6 +51,8 @@
                                         <include>it/unimi/dsi/fastutil/ints/AbstractIntSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/ints/IntArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/ints/IntConsumer.class</include>
