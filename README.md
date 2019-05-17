@@ -66,7 +66,7 @@ You should have at least 3 artifacts, `core`, `intbase` or `longbase` (or both),
         </dependency>
         <dependency>
             <groupId>co.aikar</groupId>
-            <artifactId>fastutil-longbase</artifactId>
+            <artifactId>fastutil-intbase</artifactId>
             <version>2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
