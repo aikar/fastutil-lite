@@ -43,8 +43,14 @@
                                 <filter>
                                     <artifact>co.aikar:fastutil-objectbase</artifact>
                                     <includes>
+                                        <include>it/unimi/dsi/fastutil/Stack.class</include>
+                                        <include>it/unimi/dsi/fastutil/Stack$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectList.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/AbstractObjectList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectArrayList$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/objects/ObjectArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectConsumer.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectConsumer$*.class</include>
                                         <include>it/unimi/dsi/fastutil/objects/ObjectCollections.class</include>

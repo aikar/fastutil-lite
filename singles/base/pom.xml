@@ -54,6 +54,8 @@
                                         <include>it/unimi/dsi/fastutil/HashCommon$*.class</include>
                                         <include>it/unimi/dsi/fastutil/SafeMath.class</include>
                                         <include>it/unimi/dsi/fastutil/SafeMath$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/Stack.class</include>
+                                        <include>it/unimi/dsi/fastutil/Stack$*.class</include>
                                         <include>it/unimi/dsi/fastutil/Swapper.class</include>
                                         <include>it/unimi/dsi/fastutil/Swapper$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteConsumer.class</include>

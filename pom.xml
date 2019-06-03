@@ -58,5 +58,13 @@
         <module>singles/doublebase</module>
         <module>singles/doublehashmap</module>
         <module>singles/doublecustomhashmap</module>
+        <module>singles/object2booleanmap</module>
+        <module>singles/object2bytemap</module>
+        <module>singles/object2charmap</module>
+        <module>singles/object2doublemap</module>
+        <module>singles/object2floatmap</module>
+        <module>singles/object2intmap</module>
+        <module>singles/object2longmap</module>
+        <module>singles/object2objectmap</module>
     </modules>
 </project>

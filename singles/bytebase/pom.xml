@@ -45,12 +45,16 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByteList.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/AbstractByteList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteSet.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/AbstractByteSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteCollection.class</include>
@@ -69,6 +73,8 @@
                                         <include>it/unimi/dsi/fastutil/bytes/ByteSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteSets.class</include>
                                         <include>it/unimi/dsi/fastutil/bytes/ByteSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteStack.class</include>
+                                        <include>it/unimi/dsi/fastutil/bytes/ByteStack$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>

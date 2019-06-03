@@ -29,6 +29,14 @@
         <module name="fastutil-longcustomhashmap" />
         <module name="fastutil-longhashmap" />
         <module name="fastutil-longthashmap" />
+        <module name="fastutil-object2booleanmap" />
+        <module name="fastutil-object2bytemap" />
+        <module name="fastutil-object2charmap" />
+        <module name="fastutil-object2doublemap" />
+        <module name="fastutil-object2floatmap" />
+        <module name="fastutil-object2intmap" />
+        <module name="fastutil-object2longmap" />
+        <module name="fastutil-object2objectmap" />
         <module name="fastutil-objectbase" />
         <module name="fastutil-objectcustomhashmap" />
         <module name="fastutil-objecthashmap" />
@@ -68,6 +76,15 @@
       <module name="fastutil-longcustomhashmap" target="1.8" />
       <module name="fastutil-longhashmap" target="1.8" />
       <module name="fastutil-longthashmap" target="1.8" />
+      <module name="fastutil-object2booleanmap" target="1.8" />
+      <module name="fastutil-object2bytemap" target="1.8" />
+      <module name="fastutil-object2charmap" target="1.8" />
+      <module name="fastutil-object2doublemap" target="1.8" />
+      <module name="fastutil-object2floatmap" target="1.8" />
+      <module name="fastutil-object2intmap" target="1.8" />
+      <module name="fastutil-object2longmap" target="1.8" />
+      <module name="fastutil-object2objectmap" target="1.8" />
+      <module name="fastutil-object2x" target="1.8" />
       <module name="fastutil-objectbase" target="1.8" />
       <module name="fastutil-objectcustomhashmap" target="1.8" />
       <module name="fastutil-objecthashmap" target="1.8" />

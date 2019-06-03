@@ -45,12 +45,16 @@
                                     <includes>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharCollection.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharCollection$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractCharList.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/AbstractCharList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharSet.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/AbstractCharSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrayList.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrayList$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrays.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharArrays$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharArraySet.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharArraySet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharBidirectionalIterator.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharBidirectionalIterator$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharConsumer.class</include>
@@ -73,6 +77,8 @@
                                         <include>it/unimi/dsi/fastutil/chars/CharSet$*.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharSets.class</include>
                                         <include>it/unimi/dsi/fastutil/chars/CharSets$*.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharStack.class</include>
+                                        <include>it/unimi/dsi/fastutil/chars/CharStack$*.class</include>
                                     </includes>
                                 </filter>
                             </filters>
